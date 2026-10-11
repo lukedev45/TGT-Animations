@@ -1,0 +1,15 @@
+[project]
+name = "tgt-animations"
+version = "0.1.0"
+description = "Manim animations for a talk on the Three Gap Theorem and Riemannian geometry"
+readme = "README.md"
+authors = [
+    { name = "Luke Devlin", email = "lukedevlin45@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "manim",
+]
+
+[tool.uv]
+package = false
